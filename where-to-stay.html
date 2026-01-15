@@ -1,0 +1,369 @@
+---
+layout: default
+title: Where to Stay - Bachelor Party Accommodations in New Orleans
+description: Private villas and vacation rentals that fit your whole crew. Skip the hotel rooms. Stay together.
+---
+
+<style>
+.stay-hero {
+  padding: calc(60px + var(--spacing-xl)) 0 var(--spacing-lg);
+  background: var(--color-primary);
+  text-align: center;
+}
+
+.stay-hero h1 {
+  color: var(--color-white);
+}
+
+.stay-hero p {
+  color: rgba(255,255,255,0.7);
+}
+
+.stay-intro {
+  background: var(--color-background);
+  padding: var(--spacing-xl) 0;
+}
+
+.intro-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--spacing-lg);
+  align-items: center;
+}
+
+.check-list {
+  list-style: none;
+  margin-top: var(--spacing-md);
+}
+
+.check-list li {
+  padding: var(--spacing-xs) 0;
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-sm);
+}
+
+.check-list li::before {
+  content: '—';
+  color: var(--color-secondary);
+  font-weight: bold;
+}
+
+.properties-section {
+  padding: var(--spacing-xl) 0;
+  background: var(--color-white);
+}
+
+.property-card-large {
+  background: var(--color-background);
+  margin-bottom: var(--spacing-lg);
+}
+
+.property-card-inner {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.property-card-large:nth-child(even) .property-card-inner {
+  direction: rtl;
+}
+
+.property-card-large:nth-child(even) .property-card-inner > * {
+  direction: ltr;
+}
+
+.property-card-image {
+  min-height: 400px;
+  background: var(--color-primary);
+  position: relative;
+}
+
+.property-card-image .placeholder {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 4rem;
+  color: rgba(255,255,255,0.3);
+}
+
+.property-card-details {
+  padding: var(--spacing-lg);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.property-card-details h3 {
+  font-size: 2rem;
+  margin-bottom: var(--spacing-sm);
+}
+
+.property-stats {
+  display: flex;
+  gap: var(--spacing-lg);
+  margin-bottom: var(--spacing-md);
+}
+
+.stat {
+  text-align: center;
+}
+
+.stat-number {
+  font-family: var(--font-accent);
+  font-size: 2.5rem;
+  color: var(--color-secondary);
+  display: block;
+  line-height: 1;
+}
+
+.stat-label {
+  font-size: 0.75rem;
+  color: var(--color-text-light);
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+.property-amenities {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--spacing-xs);
+  margin-bottom: var(--spacing-md);
+}
+
+.amenity-tag {
+  background: var(--color-primary);
+  color: var(--color-white);
+  padding: 0.5rem 1rem;
+  font-size: 0.8rem;
+  font-family: var(--font-headline);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.comparison-section {
+  background: var(--color-primary);
+  color: var(--color-white);
+  padding: var(--spacing-xl) 0;
+}
+
+.comparison-section h2 {
+  color: var(--color-white);
+  text-align: center;
+  margin-bottom: var(--spacing-lg);
+}
+
+.comparison-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--spacing-md);
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.comparison-col {
+  padding: var(--spacing-md);
+}
+
+.comparison-col h3 {
+  color: var(--color-white);
+  margin-bottom: var(--spacing-md);
+  font-size: 1.25rem;
+}
+
+.comparison-col.bad {
+  background: rgba(255,255,255,0.05);
+  border: 1px solid rgba(255,255,255,0.1);
+}
+
+.comparison-col.good {
+  background: rgba(184, 134, 11, 0.2);
+  border: 1px solid var(--color-secondary);
+}
+
+.comparison-list {
+  list-style: none;
+}
+
+.comparison-list li {
+  padding: var(--spacing-xs) 0;
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-sm);
+  color: rgba(255,255,255,0.8);
+  font-size: 0.95rem;
+}
+
+.comparison-col.bad .comparison-list li::before {
+  content: '✗';
+  color: #e74c3c;
+}
+
+.comparison-col.good .comparison-list li::before {
+  content: '✓';
+  color: var(--color-secondary);
+}
+
+@media (max-width: 768px) {
+  .intro-grid,
+  .property-card-inner,
+  .comparison-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .property-card-large:nth-child(even) .property-card-inner {
+    direction: ltr;
+  }
+
+  .property-card-image {
+    min-height: 250px;
+  }
+}
+</style>
+
+<section class="stay-hero">
+  <div class="container">
+    <span class="accent-text">Where to Stay</span>
+    <h1>Skip the Hotel Rooms</h1>
+    <p class="hero-subtitle">Private properties that fit your whole crew under one roof.</p>
+  </div>
+</section>
+
+<section class="stay-intro">
+  <div class="container">
+    <div class="intro-grid">
+      <div class="intro-text">
+        <h2>15 Guys. One Roof.</h2>
+        <p>The worst part of most bachelor parties: splitting up across 5 hotel rooms. Different floors, different schedules, never seeing each other except when you're heading out.</p>
+        <p>We recommend private properties that keep everyone together. Pool, multiple bedrooms, space to hang out. No front desk, no noise complaints.</p>
+        <ul class="check-list">
+          <li>Private pools</li>
+          <li>6-8+ bedrooms</li>
+          <li>Full kitchens</li>
+          <li>Outdoor space</li>
+          <li>Walking distance to nightlife</li>
+        </ul>
+      </div>
+      <div class="intro-image">
+        <div style="background: var(--color-primary); height: 400px; display: flex; align-items: center; justify-content: center; font-size: 4rem; color: var(--color-secondary);">&#127968;</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="properties-section">
+  <div class="container">
+    <div style="text-align: center; margin-bottom: var(--spacing-lg);">
+      <span class="accent-text">Recommended Properties</span>
+      <h2>Built for Groups</h2>
+    </div>
+
+    <div id="castleday" class="property-card-large">
+      <div class="property-card-inner">
+        <div class="property-card-image">
+          <div class="placeholder">&#127968;</div>
+        </div>
+        <div class="property-card-details">
+          <span class="accent-text">Featured</span>
+          <h3>Castleday Retreats</h3>
+          <div class="property-stats">
+            <div class="stat">
+              <span class="stat-number">20+</span>
+              <span class="stat-label">Guests</span>
+            </div>
+            <div class="stat">
+              <span class="stat-number">8</span>
+              <span class="stat-label">Beds</span>
+            </div>
+            <div class="stat">
+              <span class="stat-number">1</span>
+              <span class="stat-label">Pool</span>
+            </div>
+          </div>
+          <p>Massive property perfect for large groups. Private pool, hot tub, multiple living spaces, and enough room for everyone to spread out. Minutes from the French Quarter.</p>
+          <div class="property-amenities">
+            <span class="amenity-tag">Pool</span>
+            <span class="amenity-tag">Hot Tub</span>
+            <span class="amenity-tag">Full Kitchen</span>
+            <span class="amenity-tag">Parking</span>
+            <span class="amenity-tag">Game Room</span>
+          </div>
+          <a href="https://castledayretreats.com" class="btn btn-primary" target="_blank">View Property</a>
+        </div>
+      </div>
+    </div>
+
+    <div id="thesyd" class="property-card-large">
+      <div class="property-card-inner">
+        <div class="property-card-image">
+          <div class="placeholder">&#127969;</div>
+        </div>
+        <div class="property-card-details">
+          <span class="accent-text">Featured</span>
+          <h3>The Syd</h3>
+          <div class="property-stats">
+            <div class="stat">
+              <span class="stat-number">16</span>
+              <span class="stat-label">Guests</span>
+            </div>
+            <div class="stat">
+              <span class="stat-number">6</span>
+              <span class="stat-label">Beds</span>
+            </div>
+            <div class="stat">
+              <span class="stat-number">1</span>
+              <span class="stat-label">Courtyard</span>
+            </div>
+          </div>
+          <p>Well-designed property with a private courtyard, modern amenities, and a great location. Multiple common areas for the crew to hang.</p>
+          <div class="property-amenities">
+            <span class="amenity-tag">Courtyard</span>
+            <span class="amenity-tag">Modern Design</span>
+            <span class="amenity-tag">Full Kitchen</span>
+            <span class="amenity-tag">Walkable</span>
+          </div>
+          <a href="https://thesyd.com" class="btn btn-primary" target="_blank">View Property</a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<section class="comparison-section">
+  <div class="container">
+    <h2>Hotel Rooms vs. Private Villa</h2>
+    <div class="comparison-grid">
+      <div class="comparison-col bad">
+        <h3>Hotel Rooms</h3>
+        <ul class="comparison-list">
+          <li>Split into 4-5 rooms</li>
+          <li>Different floors, different schedules</li>
+          <li>No pool (or crowded shared pool)</li>
+          <li>Noise complaints from neighbors</li>
+          <li>No kitchen—eating out every meal</li>
+          <li>$200-400/night per room</li>
+        </ul>
+      </div>
+      <div class="comparison-col good">
+        <h3>Private Villa</h3>
+        <ul class="comparison-list">
+          <li>Everyone under one roof</li>
+          <li>Common spaces to actually hang out</li>
+          <li>Your own private pool</li>
+          <li>No neighbors to disturb</li>
+          <li>Full kitchen for food and drinks</li>
+          <li>Often cheaper per person</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="cta-section">
+  <div class="container">
+    <h2>Questions About Properties?</h2>
+    <p>Not sure which option fits your group? We can help.</p>
+    <a href="mailto:hello@thesendoffnola.com" class="btn btn-dark">Contact Us</a>
+  </div>
+</section>
