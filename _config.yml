@@ -1,8 +1,9 @@
 # Site settings
 title: The Send Off
 description: The definitive guide to bachelor parties in New Orleans. Golf, fishing, nightlife, and everything in between.
-url: "https://thesendoffnola.com"
+url: "https://nolaguyguide.com"
 baseurl: ""
+image: /assets/images/castleday-aerial.jpg
 
 # SEO
 author: The Send Off
@@ -33,6 +34,7 @@ defaults:
       path: ""
     values:
       layout: "default"
+      image: /assets/images/castleday-aerial.jpg
 
 # Exclude from build
 exclude:

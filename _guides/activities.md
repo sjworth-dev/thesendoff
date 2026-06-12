@@ -186,4 +186,4 @@ Walking tour through the French Quarter with food stops. More sophisticated opti
 
 ---
 
-Questions about activities? [Contact us](/contact/).
+Questions about activities? Check the [FAQ](/faq/) or slot them into the [3-day playbook](/guides/itinerary/).

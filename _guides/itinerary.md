@@ -145,12 +145,12 @@ Here's what to expect per person for a 3-day weekend:
 
 | Item | Estimated Cost |
 |------|----------------|
-| Accommodations (split) | $150-250 |
+| Accommodations (split) | $200-300 |
 | Food (all meals) | $200-300 |
 | Drinks & nightlife | $150-250 |
 | Activities (golf/fishing) | $100-200 |
 | Ubers | $30-50 |
-| **Total** | **$630-1,050** |
+| **Total** | **$680-1,100** |
 
 This varies based on how many guys, where you stay, and how hard you go.
 

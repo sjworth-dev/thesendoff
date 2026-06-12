@@ -749,3 +749,110 @@ section {
     text-align: center;
   }
 }
+
+/* ============================================
+   Photo Hero
+   ============================================ */
+.hero.hero-photo {
+  /* #0D0D0D = --color-dark */
+  background: linear-gradient(rgba(13, 13, 13, 0.7), rgba(13, 13, 13, 0.45)), var(--hero-image) center / cover no-repeat;
+}
+
+.hero.hero-photo::before,
+.hero.hero-photo::after {
+  display: none;
+}
+
+.hero.hero-photo h1 {
+  text-shadow: 0 2px 12px rgba(0, 0, 0, 0.5);
+}
+
+.hero.hero-photo h1 span {
+  color: var(--color-secondary);
+}
+
+.hero.hero-photo .hero-subtitle {
+  color: rgba(255, 255, 255, 0.85);
+  text-shadow: 0 1px 8px rgba(0, 0, 0, 0.5);
+}
+
+/* ============================================
+   Photo Containers
+   ============================================ */
+.property-image img {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+  display: block;
+}
+
+.property-card-image img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.intro-image img {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+  display: block;
+}
+
+/* ============================================
+   Testimonials
+   ============================================ */
+.testimonials {
+  background: var(--color-white);
+}
+
+.testimonial-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: var(--spacing-md);
+}
+
+.testimonial-card {
+  background: var(--color-background);
+  padding: var(--spacing-md);
+  border-left: 3px solid var(--color-secondary);
+}
+
+.testimonial-text {
+  font-style: italic;
+  font-size: 1rem;
+  margin-bottom: var(--spacing-sm);
+}
+
+.testimonial-author {
+  font-family: var(--font-headline);
+  font-size: 0.85rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--color-primary);
+  margin-bottom: 0;
+}
+
+.testimonial-meta {
+  font-size: 0.8rem;
+  color: var(--color-text-light);
+  margin-bottom: 0;
+}
+
+.testimonial-caption {
+  text-align: center;
+  margin-top: var(--spacing-md);
+  font-size: 0.9rem;
+  color: var(--color-text-light);
+}
+
+@media (max-width: 768px) {
+  .testimonial-grid {
+    grid-template-columns: 1fr;
+  }
+}

@@ -333,4 +333,4 @@ Organizer makes the call. That's why you're in charge.
 
 Keep it simple. Get the money upfront. Don't over-plan every minute. The best bachelor parties have structure but leave room for things to happen.
 
-Questions? [Get in touch](/contact/).
+Questions? The [FAQ](/faq/) covers the most common ones.
